@@ -8,12 +8,12 @@ deleting, and retrieving users.
 
 Key Features
 
-* Page Object Model (POM) with BDD: Implements the Page Object Model pattern combined with BDD to separate test logic from UI interaction.
+* Page Object Model (POM): Implements the Page Object Model pattern to separate test logic from UI interaction.
 * System Independent: Can be run on any operating system.
 * No Upfront Browser Driver Installation: Tests can be run without the need to manually install browser drivers.
 * Backend Testing Extensibility: Easily extendable to support backend testing.
 * Scalable and Maintainable: Designed for scalability and easy maintenance with a clear structure and self-descriptive code.
-* Configurable Settings: Reads settings from a config.ini file, including browser type, credentials, rerun count, URLs, headless mode, log/screenshot cleanup, refresh_data
+* Configurable Settings: Reads settings from a config.ini file, including browser type, credentials, rerun count, URLs, headless mode
 * Multi-browser Support: Runs test scenarios in Chrome, Edge, and Firefox.
 * Automatic Rerun: Automatically reruns failed steps a specified number of times.
 * Headless Mode: Supports headless mode with the option to turn it on or off.
